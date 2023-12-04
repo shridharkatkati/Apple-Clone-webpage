@@ -1,0 +1,35 @@
+footer{
+    margin-top: 10px;
+    background-color: #f5f5f7;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 10px;
+}
+footer hr{
+    color: #d2d2d7;
+}
+.flexfooter{
+    display: flex;
+}
+.globalFooter, .legalFooter{
+    flex: 1;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    color: #8b8b8e;
+}
+.globalFooter strong{
+    color: #454547;
+}
+.globalFooter dt{
+    padding-top: 10px;
+}
+.globalFooter a,
+.legalFooter a{
+    text-decoration: none;
+    color: #8b8b8e;
+}
+
+.legalFooter dl{
+    display: flex;
+    column-gap: 10px;
+}
