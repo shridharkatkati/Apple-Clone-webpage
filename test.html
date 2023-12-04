@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hoverable dropdown</title>
+    <style>
+        .drop1 {
+            background-color: limegreen;
+            position: relative;
+            width: 100px;
+            margin-left: 100px;
+        }
+        
+        .drop1Content {
+            display: none;
+            position: absolute;
+            width: 100vw; /* Set the width to 100% of the viewport width */
+            left:-100%;
+        }
+        
+        .drop1:hover .drop1Content {
+            display: block;
+            background-color: aqua;
+        }
+        
+
+
+
+
+        .DropDownMenu{
+            background-color: azure;
+            position: relative;
+        }
+        .DropDownMenu:hover .dropDownBoxContent{
+            display: block;
+            background-color: bisque;
+            width: 100%;
+        }
+        .dropDownBoxContent{
+            position: absolute;
+            display: none;
+            width: 100%;
+        }
+        .dropDownHeaderGrid,
+        .dropDownHeaderContentGrid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr ;
+        }
+        
+        .Options1{
+            padding-left: 100px;
+            font-family: sans-serif;
+            font-size: 11px;
+        }
+        .OptionsFontLarge{
+            padding-left: 100px;
+            font-family: sans-serif;
+            font-size: 25px;
+            min-width: 220px;
+        }
+        .OptionsFontSmall{
+            padding-left: 100px;
+            font-family: sans-serif;
+            font-size: 11px;
+        }
+        .OptionsFontSmall dt{
+            font-weight: 800;
+            font-size: 11px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div >
+        <div class="DropDownMenu">
+            store
+            <div class="dropDownBoxContent">
+                <div class="dropDownHeaderGrid">
+                    <div class="Options1">
+                        Shop
+                    </div>
+                    <div class="Options1">
+                        Quick Links
+                    </div>
+                    <div class="Options1">
+                        Shop Sepecial Stores
+                    </div>
+                </div>
+                <div class="dropDownHeaderContentGrid">
+                    <div class="OptionsFontLarge">
+                        <dl>
+                            <dt>Shop the Latest</dt>
+                            <dt>Mac</dt>
+                            <dt>iPad</dt>
+                            <dt>iPhone</dt>
+                            <dt>Apple Watch</dt>
+                            <dt>Accessories</dt>
+                        </dl>
+                    </div>
+                    <div class="OptionsFontSmall">
+                        <dl>
+                            <dt>
+                                Find a Store
+                            </dt>
+                            <dt>
+                                Order Status
+                            </dt>
+                            <dt>
+                                Ways to Buy
+                            </dt>
+                        </dl>
+                    </div>
+                    <div class="OptionsFontSmall">
+                        <dl>
+                            <dt>
+                                Education
+                            </dt>
+                            <dt>
+                                Business
+                            </dt>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!--  -->
+    <div class="drop1">
+        spot
+        <div class="drop1Content">
+            sadasd
+        </div>
+    </div>
+    
+</body>
+</html>
+
