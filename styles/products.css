@@ -2,42 +2,22 @@
     display: grid;
     grid-template-columns: 1fr;
 }
-.ProductImageContainer1{
+.ProductImageContainer{
     overflow: hidden;
     position: relative;
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
-    background-image: url("../products/p3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 550px;
 }
-.ProductImageContainer2{
-    overflow: hidden;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-    background-image: url("../products/p2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 550px;
+.ProductImageContainer a{
+    text-decoration: none;
+    color: blue;
 }
-.ProductImageContainer3{
-    overflow: hidden;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-    background-image: url("../products/promo1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 550px;
-}
+
 .ProductVideoContainer1{
     position: relative;
     width: 1fr;
@@ -139,10 +119,7 @@ button{
     padding-right: 10px;
     justify-content: center;
 }
-.promotionContainer1,
-.promotionContainer2,
-.promotionContainer3,
-.promotionContainer4{
+.promotionContainer{
     position: relative;
     color: white;
     padding-top: 60px;
@@ -151,30 +128,22 @@ button{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-.promotionContainer1{
-    background-image: url("../products/promo5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-.promotionContainer2{
-    background-image: url("../products/promo2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.promotionContainer3{
-    background-image: url("../products/promo4.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.promotionContainer4{
-    background-image: url("../products/promo6.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+@media (max-width: 999px) {
+    .promotionContainer:nth-child(1) {
+        background-image: url('../products/ipadSmallScreen.jpg')!important;
+    }
+
+    .promotionContainer:nth-child(2) {
+        background-image: url('../products/laptopSmallScreen.jpg')!important;
+    }
+
+    .promotionContainer:nth-child(3) {
+        background-image: url('../products/airpodsSmallScreen.jpg')!important;
+    }
 }
 .svgImgContainer{
     display: grid;

@@ -10,20 +10,70 @@
     <link rel="stylesheet" href="styles/footer.css">
 </head>
 <body>
-    <div class="headerBar">
+    <nav class="headerBar">
         <div class="svgOptions"> 
           <svg height="44" viewBox="0 0 14 44" width="14" xmlns="http://www.w3.org/2000/svg">
             <path d="m13.0729 17.6825a3.61 3.61 0 0 0 -1.7248 3.0365 3.5132 3.5132 0 0 0 2.1379 3.2223 8.394 8.394 0 0 1 -1.0948 2.2618c-.6816.9812-1.3943 1.9623-2.4787 1.9623s-1.3633-.63-2.613-.63c-1.2187 0-1.6525.6507-2.644.6507s-1.6834-.9089-2.4787-2.0243a9.7842 9.7842 0 0 1 -1.6628-5.2776c0-3.0984 2.014-4.7405 3.9969-4.7405 1.0535 0 1.9314.6919 2.5924.6919.63 0 1.6112-.7333 2.8092-.7333a3.7579 3.7579 0 0 1 3.1604 1.5802zm-3.7284-2.8918a3.5615 3.5615 0 0 0 .8469-2.22 1.5353 1.5353 0 0 0 -.031-.32 3.5686 3.5686 0 0 0 -2.3445 1.2084 3.4629 3.4629 0 0 0 -.8779 2.1585 1.419 1.419 0 0 0 .031.2892 1.19 1.19 0 0 0 .2169.0207 3.0935 3.0935 0 0 0 2.1586-1.1368z">
             </path>
           </svg>
         </div>
-        <div>
+        <div class="dropdownTrigger" data-dropdown="store">
           Store
         </div>
+        <!-- <div class="dropdownContent" data-dropdown-content="store">
+          <dl>
+            <div class="headerFlexBox">
+              <dl class="ProductColumn">
+                <section>Shop</section>
+                <dt>
+                  <strong>Shop the Latest</strong>
+                </dt>
+                <dt>
+                  <strong>Mac</strong>
+                </dt>
+                <dt>
+                  <strong>iPad</strong>
+                </dt>
+                <dt>
+                  <strong>iPhone</strong>
+                </dt>
+                <dt>
+                  <strong>Apple Watch</strong>
+                </dt>
+                <dt>
+                  <strong>Accessories</strong>
+                </dt>
+              </dl>
+
+              <dl class="ProductOtherColumn">
+                <section>Quick Links</section>
+                <dt>
+                  <strong>Find a Store</strong>
+                </dt>
+                <dt>
+                  <strong>Order Status</strong>
+                </dt>
+                <dt>
+                  <strong>Ways to Buy</strong>
+                </dt>
+              </dl>
+              
+              <dl class="ProductOtherColumn">
+                <section>Shop</section> 
+                <dt>
+                  <strong>Education</strong>
+                </dt>
+                <dt>
+                  <strong>Business</strong>
+                </dt>
+              </dl>
+            </div>
+        </div> -->
         <!--  -->
         <div>
           Mac
         </div>
+        <!--  -->
         <div>
           iPad
         </div>
@@ -56,13 +106,13 @@
         <div class="svgOptions">
           <svg height="44" viewBox="0 0 14 44" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m11.3535 16.0283h-1.0205a3.4229 3.4229 0 0 0 -3.333-2.9648 3.4229 3.4229 0 0 0 -3.333 2.9648h-1.02a2.1184 2.1184 0 0 0 -2.117 2.1162v7.7155a2.1186 2.1186 0 0 0 2.1162 2.1167h8.707a2.1186 2.1186 0 0 0 2.1168-2.1167v-7.7155a2.1184 2.1184 0 0 0 -2.1165-2.1162zm-4.3535-1.8652a2.3169 2.3169 0 0 1 2.2222 1.8652h-4.4444a2.3169 2.3169 0 0 1 2.2222-1.8652zm5.37 11.6969a1.0182 1.0182 0 0 1 -1.0166 1.0171h-8.7069a1.0182 1.0182 0 0 1 -1.0165-1.0171v-7.7155a1.0178 1.0178 0 0 1 1.0166-1.0166h8.707a1.0178 1.0178 0 0 1 1.0164 1.0166z"></path></svg>
         </div>
-    </div>
-    <div class="DiscountBar">
+    </nav>
+    <section class="DiscountBar">
       Save up to ₹8000.00 instantly on eligible products with HDFC Bank Credit Cards.* Plus No Cost EMI from most leading banks.‡  
       <div style="margin-left: 10px;">
         <a href="#" class="shop-now">Shop now ></a>
       </div>
-    </div>
+    </section>
 
     <div class="ProductContainer">
 
@@ -87,7 +137,7 @@
       </div>
 <!--  -->
 
-      <div class="ProductImageContainer1">
+      <div class="ProductImageContainer" style="background-image: url('products/p3.jpg');">
         <div class="headings">
           <div class="title3">
             Choose (RED). Save lives.
@@ -104,7 +154,7 @@
 
       <!--  -->
 
-      <div class="ProductImageContainer2">
+      <div class="ProductImageContainer" style="background-image: url(' products/p2.jpg');">
         <div class="headings">
           <div class="title3">
             iPhone 15
@@ -121,7 +171,7 @@
 
       <!--  -->
 
-      <div class="ProductImageContainer3">
+      <div class="ProductImageContainer" style="background-image: url(' products/promo1.jpg');">
         <div class="headings">
           <div class="title1">
             iPhone 15 Pro
@@ -141,7 +191,7 @@
     
     <!-- new grid item with 2 column  -->
     <div class="promotionGrid">
-      <div class="promotionContainer1">
+      <div class="promotionContainer" style="background-image: url('products/promo5.jpg');">
         <div class="PromoTitleBlack">
           iPad
         </div>
@@ -155,7 +205,7 @@
       </div>
 
 <!-- ====================== -->
-      <div class="promotionContainer2">
+      <div class="promotionContainer" style="background-image: url('products/promo2.jpg');">
         <div class="PromoTitleBlack">
           MacBook Pro
         </div>
@@ -169,7 +219,7 @@
       </div>
       <!--  -->
 
-      <div class="promotionContainer3">
+      <div class="promotionContainer" style="background-image: url('products/promo4.jpg');">
         <div class="PromoTitleWhite">
           AirPods Pro
         </div>
@@ -183,7 +233,7 @@
       </div>
       <!--  -->
 
-      <div class="promotionContainer4">
+      <div class="promotionContainer" style="background-image: url('products/promo6.jpg');">
         <div class="PromoTitleWhite">
           <img src="products/promo6tradesvg.png" alt="">
         </div>
@@ -222,40 +272,40 @@
           <dl>
             <strong>Shop and Learn</strong>
             <dt>
-              <a href="">Store</a>
+              <a href="https://www.apple.com/in/store">Store</a>
             </dt>
             <dt>
-              <a href="">Mac</a>
+              <a href="https://www.apple.com/in/mac/">Mac</a>
             </dt>
             <dt>
-              <a href="">iPad</a>
+              <a href="https://www.apple.com/in/ipad/">iPad</a>
             </dt>
             <dt>
-              <a href="">iPhone</a>
+              <a href="https://www.apple.com/in/iphone/">iPhone</a>
             </dt>
             <dt>
-              <a href="">Watch</a>
+              <a href="https://www.apple.com/in/watch/">Watch</a>
             </dt>
             <dt>
-              <a href="">AirPods</a>
+              <a href="https://www.apple.com/in/airpods/">AirPods</a>
             </dt>
             <dt>
-              <a href="">TV & Home</a>
+              <a href="https://www.apple.com/in/tv-home/">TV & Home</a>
             </dt>
             <dt>
-              <a href="">AirTag</a>
+              <a href="https://www.apple.com/in/airtag/">AirTag</a>
             </dt>
             <dt>
-              <a href="">Accessories</a>
+              <a href="https://www.apple.com/in/shop/accessories/all">Accessories</a>
             </dt>
             <dt>
-              <a href="">Gift Cards</a>
+              <a href="https://www.apple.com/in/shop/gift-cards">Gift Cards</a>
             </dt>
           </dl>
           <dl>
             <strong>Apple Wallet</strong>
             <dt>
-              <a href="">Wallet</a>
+              <a href="https://www.apple.com/in/wallet/">Wallet</a>
             </dt>
           </dl>
         </div>
@@ -264,38 +314,38 @@
           <dl>
             <strong>Account</strong>
             <dt>
-              <a href="">Manage Your Apple ID</a>
+              <a href="https://appleid.apple.com/">Manage Your Apple ID</a>
             </dt>
             <dt>
-              <a href="">Apple Store Account</a>
+              <a href="https://secure7.store.apple.com/in/shop/signIn/account?ssi=1AAABjD3hmAEgywdomzd1H7yfYMSChrWbwZ376Syi01Twvs-mnkLh-3AAAAA2aHR0cHM6Ly9zZWN1cmU3LnN0b3JlLmFwcGxlLmNvbS9pbi9zaG9wL2FjY291bnQvaG9tZXx8AAIBiaOsJrJBjQAxDdduBPFv2Z072rwoMmplk0g7WgMMhDA">Apple Store Account</a>
             </dt>
             <dt>
-              <a href="">iCloud.com</a>
+              <a href="https://www.icloud.com/">iCloud.com</a>
             </dt>
           </dl>
 
           <dl>
             <strong>Entertainment</strong>
             <dt>
-              <a href="">Apple One</a>
+              <a href="https://www.apple.com/in/apple-one/">Apple One</a>
             </dt>
             <dt>
-              <a href="">Apple TV+</a>
+              <a href="https://www.apple.com/in/apple-tv-plus/">Apple TV+</a>
             </dt>
             <dt>
-              <a href="">Apple Music</a>
+              <a href="https://www.apple.com/in/apple-music/">Apple Music</a>
             </dt>
             <dt>
-              <a href="">Apple Arcade</a>
+              <a href="https://www.apple.com/in/apple-arcade/">Apple Arcade</a>
             </dt>
             <dt>
-              <a href="">Apple Podcasts</a>
+              <a href="https://www.apple.com/in/apple-podcasts/">Apple Podcasts</a>
             </dt>
             <dt>
-              <a href="">Apple Books</a>
+              <a href="https://www.apple.com/in/apple-books/">Apple Books</a>
             </dt>
             <dt>
-              <a href="">App Store</a>
+              <a href="https://www.apple.com/in/app-store/">App Store</a>
             </dt>
           </dl>
         </div>
@@ -304,31 +354,31 @@
           <dl>
             <strong>Apple Store</strong>
             <dt>
-              <a href="">Find a Store</a>
+              <a href="https://www.apple.com/in/retail/">Find a Store</a>
             </dt>
             <dt>
-              <a href="">Genius Bar</a>
+              <a href="https://www.apple.com/in/retail/geniusbar/">Genius Bar</a>
             </dt>
             <dt>
-              <a href="">Today at Apple</a>
+              <a href="https://www.apple.com/in/today/">Today at Apple</a>
             </dt>
             <dt>
-              <a href=""> Apple Camp</a>
+              <a href="https://www.apple.com/in/today/camp/"> Apple Camp</a>
             </dt>
             <dt>
-              <a href="">Apple Trade In</a>
+              <a href="https://www.apple.com/in/shop/trade-in">Apple Trade In</a>
             </dt>
             <dt>
-              <a href="">Ways to Buy</a>
+              <a href="https://www.apple.com/in/shop/ways-to-buy">Ways to Buy</a>
             </dt>
             <dt>
-              <a href="">Recycling Programme</a>
+              <a href="https://www.apple.com/in/recycling/nationalservices/">Recycling Programme</a>
             </dt>
             <dt>
-              <a href="">Order Status</a>
+              <a href="https://secure7.store.apple.com/in/shop/signIn/orders?ssi=1AAABjD3kvXcgaDyWk2Cfd1UCMxTexr-kplsLdw77a0NL29FO_jMSbgYAAAA0aHR0cHM6Ly9zZWN1cmU3LnN0b3JlLmFwcGxlLmNvbS9pbi9zaG9wL29yZGVyL2xpc3R8fAACAWLLyKQsG8NZ_BkjelNon6XHfFPOcbD4H1TwxqlBefVQ">Order Status</a>
             </dt>
             <dt>
-              <a href="">Shopping Help</a>
+              <a href="https://www.apple.com/in/shop/help">Shopping Help</a>
             </dt>
           </dl>
         </div>
@@ -337,33 +387,33 @@
           <dl>
             <strong>For Business</strong>
             <dt>
-              <a href="">Apple and Business</a>
+              <a href="https://www.apple.com/in/business/">Apple and Business</a>
             </dt>
             <dt>
-              <a href="">Shop for Business</a>
+              <a href="https://www.apple.com/in/retail/business/">Shop for Business</a>
             </dt>
           </dl>
 
           <dl>
             <strong>For Education</strong>
             <dt>
-              <a href="">Apple and Education</a>
+              <a href="https://www.apple.com/in/education/">Apple and Education</a>
             </dt>
             <dt>
-              <a href="">Shop for Education</a>
+              <a href="https://www.apple.com/in/education/k12/#how-to-buy">Shop for Education</a>
             </dt>
             <dt>
-              <a href="">Shop for University</a>
+              <a href="https://www.apple.com/in/shop/education-pricing">Shop for University</a>
             </dt>
           </dl>
 
           <dl>
             <strong>For Healthcare</strong>
             <dt>
-              <a href="">Apple in Healthcare</a>
+              <a href="https://www.apple.com/in/healthcare/">Apple in Healthcare</a>
             </dt>
             <dt>
-              <a href="">Health on Apple Watch</a>
+              <a href="https://www.apple.com/in/healthcare/apple-watch/">Health on Apple Watch</a>
             </dt>
           </dl>
         </div>
@@ -372,44 +422,44 @@
           <dl>
             <strong>Apple Values</strong>
             <dt>
-              <a href="">Accessibility</a>
+              <a href="https://www.apple.com/in/accessibility/">Accessibility</a>
             </dt>
             <dt>
-              <a href="">Education</a>
+              <a href="https://www.apple.com/in/education-initiative/">Education</a>
             </dt>
             <dt>
-              <a href="">Environment</a>
+              <a href="https://www.apple.com/in/environment/">Environment</a>
             </dt>
             <dt>
-              <a href="">Privacy</a>
+              <a href="https://www.apple.com/in/privacy/">Privacy</a>
             </dt>
             <dt>
-              <a href="">Supplier Responsibility</a>
+              <a href="https://www.apple.com/in/supplier-responsibility/">Supplier Responsibility</a>
             </dt>
           </dl>
 
           <dl>
             <strong>About Apple</strong>
             <dt>
-              <a href="">Newsroom</a>
+              <a href="https://www.apple.com/in/newsroom/">Newsroom</a>
             </dt>
             <dt>
-              <a href="">Apple Leadership</a>
+              <a href="https://www.apple.com/in/leadership/">Apple Leadership</a>
             </dt>
             <dt>
-              <a href="">Career Opportunities</a>
+              <a href="https://www.apple.com/careers/in/">Career Opportunities</a>
             </dt>
             <dt>
-              <a href="">Investors</a>
+              <a href="https://investor.apple.com/investor-relations/default.aspx">Investors</a>
             </dt>
             <dt>
-              <a href="">Ethics & Compliance</a>
+              <a href="https://www.apple.com/compliance/">Ethics & Compliance</a>
             </dt>
             <dt>
-              <a href="">Events</a>
+              <a href="https://www.apple.com/in/apple-events/">Events</a>
             </dt>
             <dt>
-              <a href="">Contact Apple</a>
+              <a href="https://www.apple.com/in/contact/">Contact Apple</a>
             </dt>
           </dl>
         </div>

@@ -2,3 +2,11 @@ body{
     margin: 0;
     padding-top: 40px;
 }
+footer{
+    margin-top: 10px;
+    background-color: #f5f5f7;
+    padding: 10px 160px;
+}
+footer hr{
+    color: #d2d2d7;
+}

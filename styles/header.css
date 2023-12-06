@@ -12,17 +12,16 @@
 .headerBar div{
   font-family: sans-serif;
   font-size: 12px;
-  margin-right: 5px;
+  margin: 0 22px;
   color: #ababab;
-  margin-left: 22px;
-  margin-right: 22px;
 }
 .svgOptions{
 fill: #d1d1d1;
-transition: fill 1s;
+transition: fill 0.4s;
 }
-.svgOptions:hover svg path {
+.svgOptions:hover {
     fill: rgb(255, 255, 255);
+    transition: fill 0.4s;
   }
 
 .DiscountBar{
@@ -43,46 +42,34 @@ transition: fill 1s;
 .shop-now:hover {
   border-color: blue;
 }
+/* ================================= */
 
-/* ===================================== */
-.DropDownMenu{
-  position: relative;
-  }
-.DropDownMenu:hover .dropDownBoxContent{
+
+.dropdownTrigger:hover + .dropdownContent,
+.dropdownContent:hover{
   display: block;
-  background-color: bisque;
-  width: 100%;
+  
 }
-.dropDownBoxContent{
-  position: absolute;
+.dropdownContent{
   display: none;
+  position: absolute;
+  top: 40px;
+  background-color: #1d1d1f;
   width: 100%;
-  left: 0;
 }
-.dropDownHeaderGrid,
-.dropDownHeaderContentGrid{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr ;
-}
-
-.Options1{
-  padding-left: 100px;
+.headerFlexBox{
+  display: flex;
+  column-gap: 100px;
+  padding-left: 210px;
   font-family: sans-serif;
-  font-size: 11px;
 }
-.OptionsFontLarge{
-  padding-left: 100px;
-  font-family: sans-serif;
+.headerFlexBox section{
+  font-size: small;
+}
+.ProductColumn{
+  line-height: 35px;
   font-size: 25px;
-  min-width: 220px;
 }
-.OptionsFontSmall{
-  padding-left: 100px;
-  font-family: sans-serif;
-  font-size: 11px;
-}
-.OptionsFontSmall dt{
-  font-weight: 800;
-  font-size: 11px;
-  padding-top: 10px;
+.ProductOtherColumn{
+  line-height: 35px;
 }
