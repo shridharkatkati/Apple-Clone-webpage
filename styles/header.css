@@ -65,6 +65,10 @@ transition: fill 0.4s;
   animation: slideIn 0.3s ease-out;
   margin: 0; 
 }
+.headerBar a{
+  text-decoration: none;
+  color: #ababab;
+}
 
 .dropdown-content ul {
   list-style: none;
